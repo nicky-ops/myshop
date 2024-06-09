@@ -30,6 +30,8 @@ ALLOWED_HOSTS = []
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media/'
 
+# SESSION SETTINGS
+CART_SESSION_ID = 'cart'
 
 # Application definition
 
