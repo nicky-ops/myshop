@@ -35,6 +35,7 @@ CART_SESSION_ID = 'cart'
 
 # Application definition
 
+
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
