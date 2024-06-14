@@ -29,6 +29,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: helvetica, sans-serif;
+    background-color: #EDF4F2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,16 +38,16 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-    color: #5993bb;
+    color: #00c552;
 }
 
 a:hover {
-    color: #77b6e2;
+    color: #4d8f05;
 }
 
 a.button, input[type="submit"] {
     color: #fff;
-    background: #5993bb;
+    background: #00c552;
     border-radius: 4px;
     padding: 10px 20px;
     font-size: 14px;
@@ -88,7 +89,7 @@ tbody tr.subtotal {
 }
 
 thead th, tbody tr.total {
-    background: #5993bb;
+    background: #00c552;
     color: #fff;
     font-weight: bold;
 }
@@ -147,7 +148,7 @@ ul.errorlist {
 }
 
 #subheader {
-    background: #ececec;
+    background: #00c552;
     color: #444;
     padding: 15px 100px;
     overflow: auto;
@@ -194,7 +195,7 @@ ul.errorlist {
 }
 
 #sidebar ul li.selected {
-    background: #5993bb;
+    background: #00c552;
     border-radius: 4px;
 }
 
@@ -218,8 +219,10 @@ ul.errorlist {
 }
 
 .product-list .item img {
-    width: 100%;
+    width: 300px;
+    height: 300px;
     margin-bottom: 8px;
+    border-radius: 20px;
 }
 
 .product-detail {
@@ -256,11 +259,11 @@ ul.errorlist {
     background: #efefef;
     padding: 10px 20px;
     color: #333;
-    border-bottom:4px solid #5993bb;
+    border-bottom:4px solid #00c552;
 }
 
 .order-info h3 {
-    color: #5993bb;
+    color: #00c552;
 }
 
 .order-info ul li {
