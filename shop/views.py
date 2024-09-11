@@ -7,6 +7,7 @@ def product_list(request, category_slug=None):
     '''
     List all products
     '''
+    category = None
     categories = Category.objects.all()
     products = Product.objects.filter(available=True)
     if category_slug:
