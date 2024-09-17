@@ -52,6 +52,8 @@ INSTALLED_APPS = [
 
 TAILWIND_APP_NAME = "theme"
 
+CART_SESSION_ID = "cart"
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
