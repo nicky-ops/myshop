@@ -45,11 +45,11 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "cart.apps.CartConfig",
+    "orders.apps.OrdersConfig",
     "shop.apps.ShopConfig",
     "tailwind",
     "theme",
     "django_browser_reload",
-    "shop.apps.ShopConfig",
 ]
 
 TAILWIND_APP_NAME = "theme"
