@@ -54,6 +54,8 @@ INSTALLED_APPS = [
 
 TAILWIND_APP_NAME = "theme"
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 CART_SESSION_ID = "cart"
 
 MIDDLEWARE = [
